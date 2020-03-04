@@ -55,7 +55,7 @@ const Draggable_base = React.forwardRef(({ areaDrag, name, target, elementId, st
             onDragEnd: function (e) {
                 ref.forEach(item => {
                     if(item.current.id === target) {
-                        if (!this.hitTest(item.current)) {
+                        if (!this.hitTest(item.current, '80%')) {
                             TweenMax.to(this.target, 0.2, {x:0, y:0})
                             setBackground('transparent')
                             check(elementId, 1)
