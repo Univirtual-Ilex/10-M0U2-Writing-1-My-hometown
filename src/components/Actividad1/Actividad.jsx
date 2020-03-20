@@ -79,7 +79,7 @@ const Actividad_base =  ({staticContext, ...props}) => {
             <div className="dnd" > 
 	            <UiButtonsContainer>
 	                <ButtonUi icon='ilx-ayuda' tooltip='Grab and drag the sentences to the correct phrase' />
-	                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+	                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={() => window.location.href='/'}/>
 	            </UiButtonsContainer>
 	            <IRow pt={1.5} className="text-center">
 	                <ICol py={ 0.5 }>
