@@ -102,7 +102,7 @@ const Actividad_base =  ({staticContext, ...props}) => {
 				      	<IRow justify='center' align='center' className="text-center">
 				      		<strong>1.) &emsp;</strong> 
 	    						<Area data-target="area_1" target="area_1" id="area_1" ref={area_1}>
-									<InputWords name="&emsp;&emsp;&emsp;&emsp;&emsp;" />
+									<InputWords name="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" />
 								</Area>
 								<p className="color_gray" >
 								&emsp; My name is Santiago Pérez.
@@ -122,7 +122,7 @@ const Actividad_base =  ({staticContext, ...props}) => {
 						<IRow justify='center' align='center' className="text-center">
 				      		<strong>3.) &emsp;</strong> 
 	    						<Area data-target="area_3" target="area_3" id="area_3" ref={area_3}>
-									<InputWords name="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" />
+									<InputWords name="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" />
 								</Area>
 								<p className="color_gray" >
 								&emsp;, a small town in the department of Risaralda. My town is 110km from Pereira.

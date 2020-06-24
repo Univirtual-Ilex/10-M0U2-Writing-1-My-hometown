@@ -14,7 +14,8 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
                         <div className='bloque-izquierdo-container'>
                             <h1> My hometown </h1>
                             <p>
-                            Read the text and complete the paragraphs with the sentences from the box.</p>
+                            Read the text and complete the paragraphs with the sentences from the box.
+                            <span className='negrilla'> <br/> Time to practice your writing skill!</span></p>
                             <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
